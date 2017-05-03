@@ -1,0 +1,357 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #3F4345;
+}
+
+.mobile {
+  display: none;
+  align-items: center;
+}
+
+.container {
+  padding: 32px 24px;
+  display: flex;
+}
+/* header section*/
+
+header {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.head {
+    padding: auto 24px;
+    display: flex;
+    background-color: white;
+    height: 4rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.logo p {
+  color: black;
+}
+
+.logo span {
+  font-weight: normal;
+}
+
+
+nav li {
+  display: inline-flex;
+  padding-right: 1rem;
+}
+ #logo {
+   align-content: center;
+   display: inline-flex;
+ }
+
+/*Banner Section*/
+
+#banner {
+  background-color: #C0C0C0;
+}
+.left {
+  padding-right: 20px;
+  width: 60%;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  padding-left: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+
+}
+
+.right h1 {
+  margin: 8rem auto 2rem auto;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#banner .right span {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+ #button {
+  background-color: #058ed9;
+  font-size: 1.5rem;
+  padding: 8px;
+  margin: 2rem auto;
+  color: white;
+  display: block;
+  width: 20rem;
+  text-align: center;
+}
+
+/*Learn Section*/
+
+#learn .left img {
+  padding-bottom: 2rem;
+  padding-right: 12px;
+}
+#learn .left h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+
+#learn .right {
+  width: 423px;
+  justify-content:  center;
+
+}
+
+#learn .right img {
+  height: 35%;
+  width: 35%;
+
+}
+
+ #learn h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#info {
+  font-size: 1rem;
+  padding: 1rem;
+  display: flex;
+}
+
+
+.block {
+  display: block;
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  font-size: .9rem;
+}
+
+.block h4 {
+  padding-bottom: .5rem;
+}
+  #link {
+   padding: .5rem;
+   margin-top: .5rem;
+   color: #269DCD;
+ }
+ .guest {
+   background-color: #C0C0C0;
+ }
+
+/*Courses section*/
+
+#courses {
+  display: block;
+  background-color: #E5E4E2;
+}
+
+#courses h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.top, .bottom {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+#courses #content {
+  width: 20rem;
+}
+
+#courses img {
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+#content{
+  height: 300px;
+  margin: 16px;
+  background-color: white;
+  font-size: 1rem;
+
+}
+
+#content h3 {
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+#content h4, p {
+  padding: .5rem;
+  font-size: 1rem;
+  color: #8D9294;
+}
+/*Video section*/
+#thesis {
+  display: block;
+}
+#thesis h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+#thesisinfo {
+  display: flex;
+}
+
+#thesis video {
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+#thesis .right {
+  width: 423px;
+  height: auto;
+  flex-direction: column;
+
+}
+
+#thesis .right img {
+  height: 136px;
+  width: auto;
+  display: inline-flex;
+  padding: 1rem;
+}
+
+#thesis #top  {
+  margin: 0;
+  display: flex;
+}
+ #thesis #bottom {
+   margin: 0;
+   display: flex;
+
+ }
+
+#thesis h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+footer {
+  font-size: .8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+ footer li {
+   display: inline;
+   padding: .5rem;
+ }
+
+@media only screen and (max-width: 470px) {
+  body {
+    display: block;
+  }
+  #one, #learn, #courses, #thesis, #desktop, #name,#logo {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    padding: 16px;
+    font-size: 1.25rem;
+  }
+
+#mobile {
+  height: 64px;
+  text-align: center;
+  margin: auto;
+  padding: 16px;
+
+}
+
+#mobile img {
+  padding: 0 16px;
+}
+.mobile-head {
+  height: 180px;
+  background-color: #058ed9;
+}
+
+.mobile h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 32px 16px 32px 0;
+}
+ .mobile #button {
+   font-size: 1rem;
+   margin-top: 24px;
+   margin-bottom: 32px;
+   background-color: #058ed9;
+ }
+
+.mobile h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.mobile img {
+
+  width: 100%;
+  height: 190px;
+}
+
+#five {
+  background-color: #D3D3D3;
+}
+
+.mobile-text {
+  padding: 16px;
+  background-color: #D3D3D3;
+  margin-bottom: 8px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+#text {
+  text-align: center;
+  background-color: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+#text h1 {
+  padding: 0;
+}
+
+video {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 24px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.mobile .block{
+  line-height: 1.8;
+}
